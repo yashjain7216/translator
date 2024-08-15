@@ -30,4 +30,7 @@ unstructured
 pytube
 numexpr
 huggingface_hub
+sse_starlette
 langserve
+FastAPI
+gTTS
