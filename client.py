@@ -34,7 +34,7 @@ def get_groq_response(input_text):
   "kwargs": {}
 }
 
-    response=requests.post("http://127.0.0.1:8000/chain/invoke",json=json_body)
+    response=requests.post("http://127.0.0.0:8000/chain/invoke",json=json_body)
     response_json = response.json()
     output = response_json["output"]
     return output
